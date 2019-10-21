@@ -7,7 +7,7 @@ export const App = (props) => {
 
   return (
     <WelcomeScreen
-      time={gameTime}
+      gameTime={gameTime}
       errorCount={errorCount}
     />
   );
