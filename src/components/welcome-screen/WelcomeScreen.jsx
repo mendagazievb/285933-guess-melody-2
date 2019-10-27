@@ -21,6 +21,11 @@ export const WelcomeScreen = (props) => {
   );
 };
 
+WelcomeScreen.defaultProps = {
+  gameTime: 0,
+  errorCount: 0,
+};
+
 WelcomeScreen.propTypes = {
   gameTime: PropTypes.number,
   errorCount: PropTypes.number,
