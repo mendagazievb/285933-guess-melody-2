@@ -9,6 +9,9 @@
     "build": "webpack --mode production",
     "start": "webpack-dev-server"
   },
+  "jest": {
+    "setupFilesAfterEnv": ["<rootDir>src/setupTests.js"]
+  },
   "devDependencies": {
     "@babel/core": "7.6.4",
     "@babel/preset-env": "7.6.3",
